@@ -1,0 +1,43 @@
+:root{
+	--w-c:5px;--h-c:5px
+}
+.cell{
+	border-width:1px;border:solid;width:var(--w-c);height:var(--h-c)
+}
+.f2{
+	padding-top:var(--h-c)
+}
+.c2{
+	padding-left:var(--w-c)
+}
+.grid-container{
+	display:grid;
+	grid-column-gap:2px;
+	grid-row-gap:2px;
+	grid-template-columns: auto auto auto auto auto;
+	background-color: #FFFFFF;
+}
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.central{
+	background-color: rgba(255, 218, 185,1);
+}
+.w{
+	background-color: rgba(251, 251, 106, 0.1);
+}
+.b{
+	background-color: rgba(251, 251, 106, 0.7);
+}
+.img{
+	width:50px;height:50px;
+}
+.grid-item:hover{
+	background-color: rgba(251, 10, 10, 0.2);
+}
+.seleccionada{
+	background-color: rgba(150, 150, 36, 1)
+}

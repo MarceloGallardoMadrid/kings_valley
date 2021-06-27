@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kings of the valley</title>
+	<link rel="shortcut icon" href="resources/iconogato.png" />
+  </head>
+  <body id="bd">
+		<h2>Kings of the valley</h2>
+		<label id="">Victoria:  </label><input id="txtVictoria" value=""></input>
+		<label id="">Turno:  </label><input id="txtTurno" value="juega el uno"></input>	
+		<label>Restart   </label></input><button onclick="restart()">Restart</button>
+		<br/><label id="">Historial:  </label><input id="txtHistorial" value=""></input>
+
+		<p>Casillero</p>
+		<div class="grid-container">
+			<div class="grid-item b" id="_1_1" onclick="mover(this)">1<img id="i_1_1"style="visibility:visible"class="img"src="resources/anubisazul.png"></div>
+			<div class="grid-item w" id="_2_1" onclick="mover(this)">2<img id="i_2_1"style="visibility:visible"class="img"src="resources/anubisazul.png"></div>
+			<div class="grid-item b" id="_3_1" onclick="mover(this)">3<img id="i_3_1"style="visibility:visible"class="img"src="resources/faraonazul.png"></div>
+			<div class="grid-item w" id="_4_1" onclick="mover(this)">4<img id="i_4_1"style="visibility:visible"class="img"src="resources/anubisazul.png"></div>
+			<div class="grid-item b" id="_5_1" onclick="mover(this)">5<img id="i_5_1"style="visibility:visible"class="img"src="resources/anubisazul.png"></div>
+			<div class="grid-item w" id="_1_2" onclick="mover(this)">6<img id="i_1_2"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_2_2" onclick="mover(this)">7<img id="i_2_2"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_3_2" onclick="mover(this)">8<img id="i_3_2"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_4_2" onclick="mover(this)">9<img id="i_4_2"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_5_2" onclick="mover(this)">10<img id="i_5_2"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_1_3" onclick="mover(this)">11<img id="i_1_3"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_2_3" onclick="mover(this)">12<img id="i_2_3"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item central" id="_3_3" onclick="mover(this)">13<img id="i_3_3"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_4_3" onclick="mover(this)">14<img id="i_4_3"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_5_3" onclick="mover(this)">15<img id="i_5_3"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_1_4" onclick="mover(this)">16<img id="i_1_4"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_2_4" onclick="mover(this)">17<img id="i_2_4"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_3_4" onclick="mover(this)">18<img id="i_3_4"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_4_4" onclick="mover(this)">19<img id="i_4_4"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item w" id="_5_4" onclick="mover(this)">20<img id="i_5_4"style="visibility:hidden"class="img"src=""></div>
+			<div class="grid-item b" id="_1_5" onclick="mover(this)">21<img id="i_1_5"style="visibility:visiblen"class="img"src="resources/anubisrojo.png"></div>
+			<div class="grid-item w" id="_2_5" onclick="mover(this)">22<img id="i_2_5"style="visibility:visible"class="img"src="resources/anubisrojo.png"></div>
+			<div class="grid-item b" id="_3_5" onclick="mover(this)">23<img id="i_3_5"style="visibility:visible"class="img"src="resources/faraonrojo.png"></div>
+			<div class="grid-item w" id="_4_5" onclick="mover(this)">24<img id="i_4_5"style="visibility:visible"class="img"src="resources/anubisrojo.png"></div>
+			<div class="grid-item b" id="_5_5" onclick="mover(this)">25<img id="i_5_5"style="visibility:visible"class="img"src="resources/anubisrojo.png"></div>
+		</div>
+
+
+  </body>
+  <script src="clases.js"></script>
+  <script src="motor.js"></script>
+<script src="index.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</html>
